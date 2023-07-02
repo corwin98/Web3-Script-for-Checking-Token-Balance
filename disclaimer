@@ -1,0 +1,9 @@
+This script utilizes the web3 library to establish a connection with the Ethereum network via Infura. The getTokenBalance function is defined to retrieve the balance of a specific token in an Ethereum wallet. It utilizes the balanceOf method of the token contract to retrieve the balance.
+
+To utilize the script, update the contractAddress variable with the actual token contract address and the walletAddress variable with the Ethereum wallet address for which you want to check the token balance.
+
+In the provided usage example, the getTokenBalance function is called to retrieve the token balance for the specified wallet address. The resulting balance is then logged to the console.
+
+Please ensure that you have the necessary dependencies installed, including the web3 library and the token-abi library. You can install them by executing the command npm install web3 token-abi.
+
+Please note that this script serves as an illustrative example and may require customization based on the specific token contract and wallet address you are working with.
