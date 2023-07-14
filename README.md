@@ -1,4 +1,4 @@
-# Web3-Script-for-Checking-Token-Balance
+# Checking-Ethereum-Token-Balance
 Web3 script that allows you to check the balance of a specific token in an Ethereum wallet
 const Web3 = require('web3');
 const tokenABI = require('token-abi');
